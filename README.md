@@ -1,2 +1,1 @@
-# rsschool-cv
-for RS-Scholl task 2021q3
+https://RRoLL545.github.io/rsschool-cv/cv
