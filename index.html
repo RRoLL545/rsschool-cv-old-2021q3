@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <title>Junior Developer Resume</title>
 </head>
 <body>
@@ -14,10 +18,11 @@
             <img src="img/photo.png" alt="photo">
             <nav>
                 <ul>
-                    <li>Contact Information</li>
+                    <li>Contact information</li>
                     <li>About myself</li>
                     <li>Skills</li>
                     <li>Code examples</li>
+                    <li>Pet projects</li>
                     <li>Experience</li>
                     <li>Education</li>
                     <li>English</li>
@@ -75,16 +80,14 @@
             </section>
             <section>
                 <h4>Code examples</h4>
-                <pre>
-                    <code>
-                        function explode(s) {
-                            const arr = s.split('');
-                            const exploded = arr.map( item => item.repeat(item) );
-                            
-                            return exploded.join('');
-                        }
-                    </code>
-                </pre>
+                <pre><code class="javascript-html">
+function explode(s) {
+    const arr = s.split('');
+    const exploded = arr.map( item => item.repeat(item) );
+    
+    return exploded.join('');
+}
+</code></pre>
             </section>
             <section>
                 <h4>Pet projects</h4>
