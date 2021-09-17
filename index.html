@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Junior Developer Resume">
+    <meta name="keywords" content="Junior Developer Resume">
+    <meta name="author" content="Roman BYKOV">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
@@ -11,76 +13,101 @@
     <title>Junior Developer Resume</title>
 </head>
 <body>
-    <div class="wrapper">
-        <header>
-            <h1>Junior Developer Resume</h1>
-            <h3>Roman BYKOV</h3>
-            <img src="img/photo.png" alt="photo">
+    <div class="wrapper-global">
+        <header class="header">
             <nav>
-                <ul>
-                    <li>Contact information</li>
-                    <li>About myself</li>
-                    <li>Skills</li>
-                    <li>Code examples</li>
-                    <li>Pet projects</li>
-                    <li>Experience</li>
-                    <li>Education</li>
-                    <li>English</li>
+                <ul class="navigation-list">
+                    <li class="navigation-list_item">
+                        <a href="#contacts" class="hrefs">Contact information</a>
+                    </li>
+                    <li class="navigation-list_item">
+                        <a href="#about" class="hrefs">About myself</a>
+                    </li>
+                    <li class="navigation-list_item">
+                        <a href="#skills" class="hrefs">Skills</a>
+                    </li>
+                    <li class="navigation-list_item">
+                        <a href="#code-example" class="hrefs">Code examples</a>
+                    </li>
+                    <li class="navigation-list_item">
+                        <a href="#pets" class="hrefs">Pet projects</a>
+                    </li>
+                    <li class="navigation-list_item">
+                        <a href="#experience" class="hrefs">Experience</a>
+                    </li>
+                    <li class="navigation-list_item">
+                        <a href="#education" class="hrefs">Education</a>
+                    </li>
+                    <li class="navigation-list_item">
+                        <a href="#english" class="hrefs">English</a>
+                    </li>
                 </ul>
             </nav>
+            <div class="intro">
+                <h1>Junior Developer Resume</h1>
+                <h3>Roman BYKOV</h3>
+                <div class="intro_ava-wrapper">
+                    <img src="img/photo.png" alt="photo">
+                </div>
+            </div>
         </header>
-        <main>
-            <section>
-                <h4>Contact Information</h4>
-                <ul>
-                    <li><a href="tel:+79171332290">mob.phone: +7 (917) 133-22-90</a></li>
-                    <li><a href="mailto:roman.n.bykov@mail.ru">e-mail: roman.n.bykov@mail.ru</a></li>
-                </ul>
-            </section>
-            <section>
-                <h4>Skills</h4>
-                <ul>
-                    <li>HTML5, CSS3, JS</li>
-                    <li>PHP, SQL</li>
-                    <li>English, learn ability</li>
-                </ul>
-            </section>
-            <section>
-                <h4>English</h4>
-                <p>Use English in my work since 2011. Reading, writing, meetings (online) and so on.</p>
-            </section>
-        </main>
-        <aside>
-            <section>
-                <h4>About myself</h4>
-                <h5>Why IT?</h5>
-                <ul>
-                    <li>In graduate school tasks to calculate temperature and residal stresses in metall product during and after thermical process were met.</li>
-                    <li>Tasks were done with help of known mathematical methods and Matlab. And I really liked it!</li>
-                    <li>In same period I created Reducer development SW, using Matlab and GUI.</li>
-                    <li>But only in 2016 I fully recognized that I want to work in IT. Started to learn, study and so on.</li>
-                </ul>
-                <h5>About my targets</h5>
-                <ul>
-                    <li>My main goal is to work in IT field.</li>
-                    <li>If to be honest, I would like to work as a developer (really want to create) in big company with big projects (big projects are much more interesting than small). I also would like to use English in my job (I think, this my skill is not really bad).</li>
-                    <li>As I see EPAM is that sort of company where I can find what is described in previous point. My goal now is to receive sufficient knowledge to be interesting person as employee for EPAM company!</li>
-                </ul>
-            </section>
-            <section>
-                <h4>Experience</h4>
-                <p>Since 06.2021 work as engineer-programmer in small Togliatti company. I am on my way!</p>
-            </section>
-            <section>
-                <h4>Education</h4>
-                <ul>
-                    <li>Quality assurance //NETCRACKER 2016</li>
-                    <li>Applied informatics //Togliatty state university 2022</li>
-                </ul>
-            </section>
-            <section>
-                <h4>Code examples</h4>
-                <pre><code class="javascript-html">
+        <div class="wrapper-content">
+            <main class="content-main">
+                <section><a id="contacts"></a>
+                    <h4 class="main-h4">Contact information</h4>
+                    <ul>
+                        <li>
+                            <a href="tel:+79171332290" class="hrefs">mob.phone: +7 (917) 133-22-90</a>
+                        </li>
+                        <li>
+                            <a href="mailto:roman.n.bykov@mail.ru" class="hrefs">e-mail: roman.n.bykov@mail.ru</a>
+                        </li>
+                    </ul>
+                </section>
+                <section><a id="skills"></a>
+                    <h4 class="main-h4">Skills</h4>
+                    <ul>
+                        <li>HTML5, CSS3, JS</li>
+                        <li>PHP, SQL</li>
+                        <li>English, learn ability</li>
+                    </ul>
+                </section>
+                <section><a id="english"></a>
+                    <h4 class="main-h4">English</h4>
+                    <p>Use English in my work since 2011. Reading, writing, meetings (online) and so on.</p>
+                </section>
+            </main>
+            <aside class="content-aside">
+                <section><a id="about"></a>
+                    <h4>About myself</h4>
+                    <h5>Why IT?</h5>
+                    <ul>
+                        <li>In graduate school tasks to calculate temperature and residal stresses in metall product during and after thermical process were met.</li>
+                        <li>Tasks were done with help of known mathematical methods and Matlab. And I really liked it!</li>
+                        <li>In same period I created Reducer development SW, using Matlab and GUI.</li>
+                        <li>But only in 2016 I fully recognized that I want to work in IT. Started to learn, study and so on.</li>
+                    </ul>
+                    <h5>About my targets</h5>
+                    <ul>
+                        <li>My main goal is to work in IT field.</li>
+                        <li>If to be honest, I would like to work as a developer (really want to create) in big company with big projects (big projects are much more interesting than small). I also would like to use English in my job (I think, this my skill is not really bad).</li>
+                        <li>As I see EPAM is that sort of company where I can find what is described in previous point. My goal now is to receive sufficient knowledge to be interesting person as employee for EPAM company!</li>
+                    </ul>
+                </section>
+                <section><a id="experience"></a>
+                    <h4>Experience</h4>
+                    <p>Since 06.2021 work as engineer-programmer in small Togliatti company. I am on my way!</p>
+                </section>
+                <section><a id="education"></a>
+                    <h4>Education</h4>
+                    <ul>
+                        <li>Quality assurance //NETCRACKER 2016</li>
+                        <li>Applied informatics //Togliatty state university 2022</li>
+                    </ul>
+                </section>
+                <section><a id="code-example"></a>
+                    <h4>Code examples</h4>
+                    <pre><code class="javascript-html">
 function explode(s) {
     const arr = s.split('');
     const exploded = arr.map( item => item.repeat(item) );
@@ -88,31 +115,40 @@ function explode(s) {
     return exploded.join('');
 }
 </code></pre>
-            </section>
-            <section>
-                <h4>Pet projects</h4>
-                <section>
-                    <h5>Virtual keyboard</h5>
-                    <a href="https://rolling-scopes-school.github.io/rroll545-JS2020Q3/virtual-keyboard/" target="_blank"><img src="img/virtual keyboard.png" alt="virtual keyboard" class=""></a>
-                    <h6>Description</h6>
-                    <p>Online keyboard. You can type your text with physical keyboard or virtual keyboard, pressing virtual keys via mouse</p>
-                    <h6>Technologies stack</h6>
-                    <p>HTML 5, CSS3, JS</p>
                 </section>
-                <section>
-                    <h5>Calculator</h5>
-                    <a href="https://rolling-scopes-school.github.io/rroll545-JS2020Q3/calculator/" target="_blank"><img src="img/calculator.png" alt="calculator" class=""></a>
-                    <h6>Description</h6>
-                    <p>Very simple calculator for basic mathematical operations</p>
-                    <h6>Technologies stack</h6>
-                    <p>HTML 5, CSS3, JS</p>
+                <section><a id="pets"></a>
+                    <h4>Pet projects</h4>
+                    <section class="pet-project">
+                        <div class="pet-project_intro">
+                            <h5>Virtual keyboard</h5>
+                            <a href="https://rolling-scopes-school.github.io/rroll545-JS2020Q3/virtual-keyboard/" target="_blank"><img src="img/virtual-keyboard.png" alt="virtual keyboard" class="pet-logo"></a>
+                        </div>
+                        <div class="pet-project_description">
+                            <h6>Description</h6>
+                            <p>Online keyboard. You can type your text with physical keyboard or virtual keyboard, pressing virtual keys via mouse</p>
+                            <h6>Technologies stack</h6>
+                            <p>HTML 5, CSS3, JS</p>
+                        </div>
+                    </section>
+                    <section class="pet-project">
+                        <div class="pet-project_intro">
+                            <h5>Calculator</h5>
+                            <a href="https://rolling-scopes-school.github.io/rroll545-JS2020Q3/calculator/" target="_blank"><img src="img/calculator.png" alt="calculator" class="pet-logo"></a>
+                        </div>
+                        <div class="pet-project_description">
+                            <h6>Description</h6>
+                            <p>Very simple calculator for basic mathematical operations</p>
+                            <h6>Technologies stack</h6>
+                            <p>HTML 5, CSS3, JS</p>
+                        </div>
+                    </section>
                 </section>
-            </section>
-        </aside>
-        <footer>
-            <a href="https://github.com/RRoLL545" target="_blank">Github profile</a>
+            </aside>
+        </div>
+        <footer class="footer">
+            <a href="https://github.com/RRoLL545" target="_blank"><img src="img/github-logo.png" alt="Visit my GitHub" class="git-hub-link"></a>
             <p>Copyright 2021</p>
-            <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSCHOOL_JS" class="rsschool-link"></a>
+            <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSCHOOL_JS" class="rs-school-link"></a>
           </footer>
     </div>
 </body>
