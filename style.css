@@ -150,6 +150,11 @@ body {
     align-items: center;
 }
 
+.nav-container {
+    position: relative;
+    height: 40px;
+}
+
 .navigation-list {
     display: flex;
     flex-direction: row;
@@ -176,9 +181,19 @@ body {
     color: #f174d4;
 }
 
+/*----------------------------*/
+.burger-icon {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    display: none;
+}
+/*----------------------------*/
 
 
-.content-main {
+
+  .content-main {
     flex: 0 0 310px; /*flex-grow, flex-shrink и flex-basis*/
     padding: 0 20px;
 }
@@ -243,7 +258,33 @@ body {
 
 
 @media (max-width: 800px) {
-    /*сделать бургер-меню*/
+    .navigation-list {
+        display: none;
+    }
+
+    .burger-icon {
+        display: inline;
+        z-index: 101;
+    }
+
+    ul.burger-menu-open {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 10px;
+        width: 180px;
+        margin-top: 0;
+        text-align: left;
+        background-color: #f1d1e9;
+        z-index: 100;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .navigation-list_item {
+        margin: 3px 0;
+    }
+
     .wrapper-global {
         font-size: 90%;
         margin: 0 auto;
